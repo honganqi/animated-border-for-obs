@@ -1,0 +1,36 @@
+<head>
+<style>
+body {
+	display: grid;
+	place-content: center;
+}
+
+.border {
+	width: 500px;
+	height: 500px;
+	background: conic-gradient(
+	from var(--gradient-angle),
+	#0000ff, 
+    #4b0082,
+    #800080,
+    #a020f0,
+    #d8bfd8
+	);
+	filter: blur(30px);
+	animation: rotation 5s linear infinite;
+}
+
+@property --gradient-angle {
+	syntax: "<angle>";
+	initial-value: 0deg;
+	inherits: false;
+}
+
+@keyframes rotation {
+	0% {--gradient-angle: 0deg;}
+	100% {--gradient-angle: 360deg;}
+}
+</style>
+</head>
+
+<body><div class="border"></div></body>
