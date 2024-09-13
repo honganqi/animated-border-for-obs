@@ -1,5 +1,7 @@
 # CSS Animated Borders for OBS
-These are the files for my tutorial on how to create animated borders for OBS.
+These are the files for my tutorial on how to create animated borders for OBS. You can watch it here:
+### [Animated Borders! Using only a single BROWSER SOURCE! #obs #css](https://youtu.be/S_cYfJPYgv4)
+[![Animated Borders! Using only a single BROWSER SOURCE! #obs #css](https://img.youtube.com/vi/S_cYfJPYgv4/0.jpg "Animated Borders! Using only a single BROWSER SOURCE! #obs #css")](https://youtu.be/S_cYfJPYgv4)
 
 ## Installation
 1. Add `animated_border.html` into OBS as a browser source.
